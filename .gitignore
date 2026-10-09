@@ -1,0 +1,28 @@
+venv/
+#data/household_power_consumption.txt
+#data/household_power_cleaned_minute.csv
+
+
+# Ignore data contents but keep folder
+/data/*
+
+/results/*
+
+# Ignore results contents but keep folder
+/results/*
+
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kubeconfig*
+.kubeconfig
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
